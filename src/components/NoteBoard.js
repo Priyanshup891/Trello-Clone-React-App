@@ -42,6 +42,7 @@ export default function NoteBoard() {
 
     useEffect(() => {
         localStorage.setItem('storedlista', JSON.stringify(listas));
+        
     }, [listas]); 
 
 

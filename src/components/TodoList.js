@@ -16,6 +16,9 @@ function updateLS() {
     localStorage.setItem("storedlista", JSON.stringify(listas));
 }
 
+const[clickedTitle, setClickedTitle]=useState(false);
+{clickedTitle? <component1 /> : <component2 /> }
+
 //// test code js
 const notes = JSON.parse(localStorage.getItem("notes"));
 
